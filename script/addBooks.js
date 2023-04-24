@@ -60,14 +60,14 @@ form.addEventListener('submit', (event) => {
     newAuthorData();
     showBookList(authorData);
     form.reset();
-} else {
+  } else {
   // Optional: display a success message
-  alert('Enter valid values for title and author fields, please.');
+    alert('Enter valid values for title and author fields, please.');
   }
 });
 
 clear.addEventListener('click', (e) => {
-    e.preventDefault();
-    localStorage.clear();
-    alert('localstorage cleared')
+  e.preventDefault();
+  localStorage.clear();
+  alert('localstorage cleared');
 });
