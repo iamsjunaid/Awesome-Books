@@ -63,14 +63,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Awesome Books: JS objects](https://github.com/iamsjunaid/Awesome-Books)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -105,9 +97,9 @@ To run the project just click the Go Live button in the VSCode.
 
 👤 **Junaid Ahmed Syed**
 
-- GitHub: [@zermarden](https://github.com/iamsjunaid)
-- Twitter: [@zermarden](https://twitter.com/junaidahmedsd)
-- LinkedIn: [@zermarden](https://www.linkedin.com/in/junaid-syed-058b2779/)
+- GitHub: [@iamsjunaid](https://github.com/iamsjunaid)
+- Twitter: [@junaidahmedsyed](https://twitter.com/junaidahmedsd)
+- LinkedIn: [@junaidsyed](https://www.linkedin.com/in/junaid-syed-058b2779/)
 
 👤 **Zermarden**
 
@@ -119,9 +111,8 @@ To run the project just click the Go Live button in the VSCode.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **Navigation**
+- **Styling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,8 +138,6 @@ We would like to thank Joel Kalema for the first review.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://github.com/iamsjunaid/Awesome-Books/blob/add-homepage/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
