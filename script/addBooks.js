@@ -1,6 +1,6 @@
 // Get the form element
 let form = document.getElementById('add-book-form');
-let clear= document.getElementById('clear')
+let clear= document.getElementById('clear');
 
 // Listen for form submission
 form.addEventListener('submit', function (event) {
@@ -34,3 +34,18 @@ clear.addEventListener('click',(e) => {
     alert('localstorage cleared')
 })
 
+function printCollection(book) {
+    const tableRow = document.createElement('tr');
+    const newTitle = document.createElement('td');
+    const newAuthor = document.createElement('td');
+    const deleteButton = document.createElement('button');
+    newTitle.innerText = book.title;
+    newAuthor.innerText = book.author;
+    deleteButton.innerHTML = 'Delete';
+    tableRow.append(newTitle, newAuthor, deleteButton);
+    bookList.append(tableRow);
+    deleteButton.addEventListener('click', () => {
+      deleteButton.parentElement.remove();
+      deleteBook(book.idNumber);
+    });
+  }
