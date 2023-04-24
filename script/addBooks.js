@@ -1,7 +1,6 @@
 // Get the form element
 let form = document.getElementById('add-book-form');
 let clear= document.getElementById('clear')
-let addAuthor = document.getElementById('add-author') 
 
 // Listen for form submission
 form.addEventListener('submit', function (event) {
