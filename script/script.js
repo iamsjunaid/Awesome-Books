@@ -7,11 +7,11 @@ const bookList = document.getElementById('books-list');
 // Get the existing data from localStorage, or create an empty array
 let storedData = JSON.parse(localStorage.getItem('storedData')) || [];
 
-// let authorData = [{
-//   bookName: 'Mark Twain',
-//   bookAuthor: 'The Adventures of Tom Sawyer',
-//   bookNumber: 123456,
-// }];
+let authorData = [{
+  bookName: 'Mark Twain',
+  bookAuthor: 'The Adventures of Tom Sawyer',
+  bookNumber: 123456,
+}];
 
 const clear = document.getElementById('clear');
 
