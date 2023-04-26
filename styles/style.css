@@ -6,7 +6,7 @@ textarea,
 button {
   margin: 0;
   padding: 0;
-  font-family: 'Indie Flower', monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .main-container {
@@ -39,6 +39,8 @@ button {
   width: 6rem;
   height: 2rem;
   align-self: center;
+  position: absolute;
+  right: 14rem;
 }
 
 .books,
@@ -59,6 +61,7 @@ input {
 
 #add-book {
   width: 6rem;
+  margin-right: -12rem;
 }
 
 button:hover {
