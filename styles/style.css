@@ -37,7 +37,6 @@ button {
 
 .remove-book {
   width: 6rem;
-
   height: 2rem;
   align-self: center;
 }
@@ -68,7 +67,7 @@ button:hover {
   color: #fff;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .main-container {
     padding: 0 1rem;
   }
@@ -78,4 +77,3 @@ button:hover {
     width: 100%;
   }
 }
-
