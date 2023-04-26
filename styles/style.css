@@ -67,13 +67,4 @@ button:hover {
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
-  .main-container {
-    padding: 0 1rem;
-  }
 
-  .books,
-  form {
-    width: 100%;
-  }
-}
