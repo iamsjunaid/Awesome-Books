@@ -13,7 +13,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10rem;
+  padding: 0 10rem;
   gap: 1rem;
 }
 
