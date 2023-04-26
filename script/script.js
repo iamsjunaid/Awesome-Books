@@ -87,6 +87,3 @@ class BooksCollection {
     });
   }
 }
-
-const booksCollection = new BooksCollection();
-booksCollection.init();
