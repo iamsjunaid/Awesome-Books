@@ -138,6 +138,6 @@ We would like to thank Joel Kalema for the first review.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/iamsjunaid/Awesome-Books/blob/add-homepage/LICENSE) licensed.
+This project is [MIT](https://github.com/iamsjunaid/Awesome-Books/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
