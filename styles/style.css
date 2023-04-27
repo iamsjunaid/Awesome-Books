@@ -104,19 +104,17 @@ button:hover {
   color: #fff;
 }
 
+.contact-section {
+  position: absolute;
+  top: 14rem;
+}
+
 footer {
   display: flex;
   justify-content: center;
   margin: 3rem 1rem;
 }
 
-@media screen and (max-width: 768px) {
-  .main-container {
-    padding: 0 1rem;
-  }
-
-  .books,
-  form {
-    width: 100%;
-  }
+.hidden {
+  visibility: hidden;
 }
