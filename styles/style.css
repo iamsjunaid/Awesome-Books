@@ -9,6 +9,34 @@ button {
   font-family: 'Roboto Mono', monospace;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  margin: 1rem;
+  align-items: center;
+}
+
+.vertical-line {
+  border-left: 3px solid #000;
+  height: 2rem;
+}
+
+.list-item > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.list-item > a:hover {
+  text-decoration: underline;
+}
+
+.list-items-container {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -17,10 +45,16 @@ button {
   gap: 1rem;
 }
 
+.main-container > h1 {
+  text-align: center;
+}
+
 .books,
 fieldset,
 input,
-button {
+button,
+header,
+footer {
   border: 2px solid #000;
 }
 
@@ -70,13 +104,17 @@ button:hover {
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
-  .main-container {
-    padding: 0 1rem;
-  }
+.contact-section {
+  position: absolute;
+  top: 14rem;
+}
 
-  .books,
-  form {
-    width: 100%;
-  }
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 1rem;
+}
+
+.hidden {
+  visibility: hidden;
 }
